@@ -1,0 +1,19 @@
+Const PI = 3.14;
+
+Quiz
+
+1) With var you can redeclare the variable which you can't do with let. Var variables declared in global scope are added to
+the window object, meaning they can overwrite objects like console, let is not added to the window. Var is function scoped, 
+meaning if declared inside a function its value can't be accessed outside the function, but can be accessed anywhere inside function.
+Let is block scoped, meaning any {} will prevent variable from being accessed outside that block expect by inner blocks.
+With var you can access a hoisted variable before it is declared, you cannot do this with let. 
+
+2) With var you can redeclare and reassign, you can't do either with const. With var you can access a hoisted variable before it is declared. 
+var has function scope while const has block-scope. 
+
+3) With let you can declare a variable before giving it a value, can't do this with const. Let allows you to reassign values, const does not.
+
+4) Hoisting is a phenomenon that only occurs with var. It happens because the JavaScript compiler runs variable declarations before variable
+initialization, allowing you to access variables before they have been initialized within a given scope. Accessing a hoisted variable will return undefined. 
+
+Functions can also be accessed before they are declared because the compiler runs function declarations before it starts running the code.
